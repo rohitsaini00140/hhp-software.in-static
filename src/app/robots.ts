@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/"
       }
     ],
-    sitemap: `https://hhpsoftware.com/sitemap.xml`
+    sitemap: `https://hhpsoftware.in/sitemap.xml`
   }
 }

@@ -12,19 +12,26 @@ function BlogPage() {
     const fetchBlogs = async () => {
       try {
         const response = await fetch(
-          "https://hhpsoftware.i/blogging/blogapi.php",
+          "https://hhpsoftware.com/blogging/blogapi",
+          {
+            method: "GET",
+            mode: "cors",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          },
         );
+
         const result = await response.json();
 
-        console.log("API Response:", result); // Debugging log
+        console.log("API Response:", result);
 
-        // Ensure data exists and is an array
         if (result?.status && Array.isArray(result?.data)) {
           setBlogPosts(result.data);
         } else {
           throw new Error("Invalid blog data format");
         }
-      } catch (error: any) {
+      } catch (error) {
         console.error("Fetch error:", error);
         setError(error.message);
       } finally {
@@ -34,6 +41,8 @@ function BlogPage() {
 
     fetchBlogs();
   }, []);
+
+  console.log(blogPosts, "kya aa raha ha");
 
   return (
     <div className="container mx-auto mt-20 px-4 py-8">
