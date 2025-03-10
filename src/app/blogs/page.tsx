@@ -1,30 +1,22 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 function BlogPage() {
   const [blogPosts, setBlogPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         const response = await fetch(
           "https://hhpsoftware.com/blogging/blogapi",
-          {
-            method: "GET",
-            mode: "cors",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          },
         );
-
         const result = await response.json();
-
-        console.log("API Response:", result);
 
         if (result?.status && Array.isArray(result?.data)) {
           setBlogPosts(result.data);
@@ -42,8 +34,6 @@ function BlogPage() {
     fetchBlogs();
   }, []);
 
-  console.log(blogPosts, "kya aa raha ha");
-
   return (
     <div className="container mx-auto mt-20 px-4 py-8">
       <h1 className="mb-6 text-left text-3xl font-bold">Latest Blog Posts</h1>
@@ -56,7 +46,8 @@ function BlogPage() {
           {blogPosts.map((post) => (
             <div
               key={post?.id}
-              className="overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-dark"
+              onClick={() => router.push(`/blogs/${post.slug}`)} // Navigate using slug
+              className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105 dark:bg-gray-dark"
             >
               <Image
                 src={
@@ -71,7 +62,16 @@ function BlogPage() {
               />
               <div className="p-4">
                 <h2 className="text-xl font-semibold">{post?.heading}</h2>
-                <p className="mt-2 text-gray-600">{post?.description}</p>
+                {/* <p className="mt-2 text-gray-600">
+                  {post?.description.substring(0, 100)}...
+                </p> */}
+
+                <p
+                  className="mt-2 text-gray-600"
+                  dangerouslySetInnerHTML={{
+                    __html: post?.description?.substring(0, 100) || "",
+                  }}
+                />
               </div>
             </div>
           ))}
