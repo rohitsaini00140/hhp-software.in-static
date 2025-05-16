@@ -25,7 +25,7 @@ const TechnologyIntro = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Block Chain Development Technology Stack"
+                title="Block Chain Development Technology Stack"
                 paragraph="Choosing the right technology stack is crucial for the success of your Block Chain. At HHP, we stay at the forefront of technology to ensure that we use the most suitable and cutting-edge tools and frameworks to bring your vision to life. Here is an overview of the key technologies we work with:-"
                 mb="44px"
               />
@@ -39,12 +39,12 @@ const TechnologyIntro = () => {
                     <List text="CSS" />
                     <List text="JavaScript" />
                     <List text="React" />
-                    <List text="Web3.js" />
+                    <List text="Web3.JS" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Ether.js" />
-                    <List text="Node.js" />
+                    <List text="Ether.JS" />
+                    <List text="Node.JS" />
                     <List text="Python" />
                     <List text="Go" />
                   </div>

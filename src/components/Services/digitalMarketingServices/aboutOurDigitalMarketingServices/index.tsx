@@ -25,7 +25,7 @@ const AboutOurDigitalMarketingServices = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Digital Marketing Expertise"
+                title="Digital Marketing Expertise"
                 paragraph="Our team of digital marketing professionals is dedicated to helping your business succeed in the online world. We offer a comprehensive range of digital marketing services tailored to your needs."
                 mb="20px"
               />

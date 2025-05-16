@@ -11,7 +11,7 @@ const Process = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Our Block Chain Development Process"
+            title="Block Chain Development Process"
             paragraph="At HHP Software, our approach is crafted to guarantee the seamless development and deployment of Block Chain projects. This structured process is meticulously designed to deliver bespoke solutions that precisely align with your unique business requirements."
             center
             mb="100px"

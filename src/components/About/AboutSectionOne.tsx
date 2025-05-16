@@ -29,7 +29,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Who We Are"
-                paragraph="HHP Software is a privately held software development company headquartered in MiQB Executive Co working Space C Block, C-25, Sector 58,
+                paragraph="HHP Software is a privately held software development company headquartered in MiQB Executive Co&apos;working Space C Block, C-25, Sector 58,
                 Noida, Uttar Pradesh 201301 Established in 2018, We are dedicated to the pursuit of creating outstanding digital solutions that revolutionize businesses, optimize processes, and captivate users with unparalleled experiences."
                 mb="44px"
               />
