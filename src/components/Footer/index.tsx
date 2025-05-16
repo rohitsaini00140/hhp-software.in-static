@@ -225,14 +225,13 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
-                    >
-                      MiQB Executive Co&apos;working Space C Block, C-25, Sector 58,
-                      Noida, Uttar Pradesh 201301
-                    </Link>
+                  <li className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]">
+                    Head Office :  C-25, Sector 58,
+                    Noida, Uttar Pradesh 201301
+                  </li>
+
+                  <li className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]">
+                    Back Office : J4, Noida Sec-58, OPPOSITE UFLEX, UP (201301)
                   </li>
                   <li>
                     <Link
