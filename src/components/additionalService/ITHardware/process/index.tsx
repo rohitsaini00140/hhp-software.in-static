@@ -11,7 +11,7 @@ const Process = () => {
       <section id="features" className="py-10 md:py-15 lg:py-15">
         <div className="container">
           <SectionTitle
-            title="Our IT Hardware Deployment Process"
+            title="IT Hardware Deployment Process"
             paragraph="At HHP Software, we recognize the distinctiveness of each IT hardware deployment project and customize our approach to align perfectly with your requirements. Our process is grounded in collaboration, innovation, and state-of-the-art technology to ensure optimal results."
             center
             mb="60px"

@@ -45,7 +45,7 @@ const menuData: Menu[] = [
       },
       {
         id: 5,
-        title: "Blockchain Development",
+        title: "Block Chain Development",
         path: "/services/blockchainDevelopment",
         newTab: false,
       },

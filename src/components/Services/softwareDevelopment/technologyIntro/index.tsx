@@ -25,7 +25,7 @@ const TechnologyIntro = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Software Development Technology Stack"
+                title=" Software Development Technology Stack"
                 paragraph="Choosing the right technology stack is crucial for the success of your Software. At HHP, we stay at the forefront of technology to ensure that we use the most suitable and cutting-edge tools and frameworks to bring your vision to life. Here is an overview of the key technologies we work with:-"
                 mb="44px"
               />
@@ -51,7 +51,7 @@ const TechnologyIntro = () => {
                     <List text="Laravel" />
                     <List text="CodeIgniter" />
                     <List text="PHP" />
-                    <List text="MySql" />
+                    <List text="MySQl" />
                     <List text="MongoDB" />
                     <List text="PostgreSQL" />
                     <List text="Cassandra" />

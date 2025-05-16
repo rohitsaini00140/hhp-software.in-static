@@ -25,7 +25,7 @@ const TechnologyIntro = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Mobile Application Development Technology Stack"
+                title=" Mobile Application Development Technology Stack"
                 paragraph="Choosing the right technology stack is crucial for the success of your mobile application. At HHP, we stay at the forefront of technology to ensure that we use the most suitable and cutting-edge tools and frameworks to bring your vision to life. Here is an overview of the key technologies we work with:-"
                 mb="44px"
               />

@@ -89,7 +89,7 @@ const processData: Process[] = [
     ),
     title: "User-Centric Approach",
     paragraph:
-      "We gather user feedback and analyze data throughout development to make informed decisions. This iterative approach ensures that your app meets and exceeds user expectations.",
+      "We gather user feedback and analyse data throughout development to make informed decisions. This iterative approach ensures that your app meets and exceeds user expectations.",
   },
   {
     id: 7,

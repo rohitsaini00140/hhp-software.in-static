@@ -51,7 +51,7 @@ const TechnologyIntro = () => {
                     <List text="Laravel" />
                     <List text="CodeIgniter" />
                     <List text="PHP" />
-                    <List text="MySql" />
+                    <List text="MySQL" />
                     <List text="MongoDB" />
                     <List text="PostgreSQL" />
                     <List text="Cassandra" />
