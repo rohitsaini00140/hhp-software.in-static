@@ -96,7 +96,7 @@ const featuresData: Process[] = [
     ),
     title: "Support and Maintenance",
     paragraph:
-      "Provide ongoing support for troubleshooting, repairs, updates, and user assistance as needed.",
+      "Provide ongoing support for troubleshoot, repairs, updates, and user assistance as per the need.",
   },
   {
     id: 6,
