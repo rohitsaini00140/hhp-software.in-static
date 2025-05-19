@@ -45,9 +45,9 @@ const processData: Process[] = [
         </g>
       </svg>
     ),
-    title: "Design Thinking",
+    title: "Design Creations",
     paragraph:
-      "We apply design thinking principles to create intuitive and visually appealing user interfaces. Our designers work closely with you to understand your target audience and deliver an engaging user experience.",
+      "We apply create the design  intuitive and visually appealing user interfaces. Our designers work closely with you to understand your target audience and deliver an engaging user experience.",
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ const processData: Process[] = [
     ),
     title: "Cross-Functional Collaboration",
     paragraph:
-      "Our development teams work collaboratively across functions. Developers, designers, and QA engineers collaborate seamlessly, ensuring that every aspect of your app aligns with the project's goals & maintains a high-quality standard.",
+      "Our development teams work collaboratively across functions. Developers, designers, and QA engineers collaborate seamlessly, ensuring that every aspect of your app aligns with the project's  maintains strandard in a high-quality",
   },
   {
     id: 5,

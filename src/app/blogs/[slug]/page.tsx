@@ -12,6 +12,8 @@ async function getAllBlogs(): Promise<BlogPost[]> {
   const res = await fetch("https://hhpsoftware.com/blogging/blogapi", {
     method: "GET",
     headers: { "Content-Type": "application/json" },
+  next : {revalidate:60},
+    cache: "force-cache",
   });
 
   const result = await res.json();

@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Revolutionizing digital experiences through innovative web and mobile app solutions."
+                title="Revolutionizing digital experiences through innovative web and mobile app solutions"
                 paragraph=" HHP Software builds inspirational designs and robust solutions for web and mobile apps. We blend our expertise in tech & design to develop innovative digital solutions that bring changes to life."
                 mb="44px"
               />

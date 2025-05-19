@@ -11,7 +11,7 @@ const Team = () => {
   let settings = {
     dots: false,
     infinite: true,
-    autoplay:true,
+    // autoplay:true,
     autoplaySpeed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -64,7 +64,7 @@ const Team = () => {
     <section className="bg-white-300 lg:py-10 relative z-10 py-3 dark:bg-bg-color-dark md:py-16">
       <div className="container">
         <SectionTitle
-          title="TEAM MEMBER"
+          title="OUR TEAM "
           paragraph="Our Innovative & Visionary Team."
           center
           mb="50px"

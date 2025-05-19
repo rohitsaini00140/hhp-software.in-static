@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
+        pageName="Contact Us"
         description="Feel free to reach out to us. We aim to respond to all inquiries promptly, typically within one business day."
       />
 

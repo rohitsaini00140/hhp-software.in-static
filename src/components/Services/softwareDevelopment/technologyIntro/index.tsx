@@ -39,10 +39,10 @@ const TechnologyIntro = () => {
                     <List text="CSS3" />
                     <List text="Javascript" />
                     <List text="Tailwind CSS" />
-                    <List text="ReactJs" />
-                    <List text="NextJs" />
-                    <List text="NodeJs" />
-                    <List text="ExpressJs" />
+                    <List text="ReactJS" />
+                    <List text="NextJS" />
+                    <List text="NodeJS" />
+                    <List text="ExpressJS" />
                     <List text="Python" />
                   </div>
 

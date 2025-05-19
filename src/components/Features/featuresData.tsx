@@ -66,7 +66,7 @@ const featuresData: Feature[] = [
     ),
     title: "Software Development",
     paragraph:
-      "HHP Software Pvt Ltd excels in innovative, tech-driven software solutions, delivering robust, tailored products. Our end-to-end expertise ensures high-quality, scalable solutions meeting diverse client needs.",
+      "HHP Software Pvt. Ltd. excels in innovative, tech-driven software solutions, delivering robust, tailored products. Our end-to-end expertise ensures high-quality, scalable solutions meeting diverse client needs.",
   },
   {
     id: 4,
