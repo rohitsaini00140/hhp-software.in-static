@@ -12,10 +12,10 @@ function Intro() {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:leading-tight">
-                  Empowering Innovation Through Blockchain Development Services
+                  Empowering Innovation Through Block Chain Development Services
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  As a leading Blockchain Development Company, we&apos;re dedicated to unleashing the true potential of blockchain technology for your organization. Our mission is to provide tailored blockchain solutions that revolutionize how you conduct business, securely exchange data, and interact with your customers.
+                  As a leading Block Chain Development Company, we&apos;re dedicated to unleashing the true potential of Block Chain technology for your organization. Our mission is to provide tailored Block Chain solutions that revolutionize how you conduct business, securely exchange data, and interact with your customers.
                 </p>
                 {/* &apos;s */}
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">

@@ -11,7 +11,7 @@ const Process = () => {
       <section id="features" className="py-16 md:py-15 lg:py-10">
         <div className="container">
           <SectionTitle
-            title="Our Web Development Process"
+            title=" Web Development Process"
             paragraph="We understand that every web development project is unique, and tailor our approach to meet your specific needs. Our development process is built on collaboration, creativity, and cutting-edge technology."
             center
             mb="100px"

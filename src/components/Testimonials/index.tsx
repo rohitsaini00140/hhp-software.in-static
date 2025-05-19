@@ -53,7 +53,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Clients Says"
-          paragraph="Valuable client feedback drives our continuous improvement and success."
+          paragraph=""
           center
           mb="100px"
         />

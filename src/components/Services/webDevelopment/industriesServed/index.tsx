@@ -38,7 +38,7 @@ const IndustriesServedIntro = () => {
                     <List text="Environment" />
                     <List text="Real Estate" />
                     <List text="Education" />
-                    <List text="Retail And Ecommerce" />
+                    <List text="Retail And E'commerce" />
                     <List text="Healthcare" />
                   </div>
 

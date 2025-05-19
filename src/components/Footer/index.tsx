@@ -28,8 +28,8 @@ const Footer = () => {
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   HHP Software is a leading mobile app development company in
-                  the US, UK & India. We offer innovative digital solutions to
-                  our clients across industries.
+                  the US, UK & UAE and India. We offer innovative digital
+                  solutions to our clients across industries.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -37,11 +37,11 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                    className="mr-3 text-[#1877F2] duration-300 hover:text-[#2DB009] dark:text-[#1877F2] dark:hover:text-[#2DB009]"
                   >
                     <svg
-                      width="18"
-                      height="18"
+                      width="20"
+                      height="20"
                       viewBox="0 0 22 22"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -57,11 +57,11 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                    className="mr-3 text-black duration-300 hover:text-[#2DB009] dark:text-black dark:hover:text-[#2DB009]"
                   >
                     <svg
-                      width="18"
-                      height="18"
+                      width="20"
+                      height="20"
                       viewBox="0 0 22 22"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,11 +79,12 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                  className="mr-3 text-[#833AB4] duration-300 hover:text-[#2DB009] dark:text-[#833AB4]  dark:hover:text-[#2DB009]"
+
                   >
                     <svg
-                      width="17"
-                      height="17"
+                      width="20"
+                      height="20"
                       viewBox="0 0 30 30"
                       className="fill-current"
                       xmlns="http://www.w3.org/2000/svg"
@@ -96,11 +97,11 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                    className="text-[#0077B5] duration-300 hover:text-[#2DB009] dark:text-[#0077B5] dark:hover:text-[#2DB009]"
                   >
                     <svg
-                      width="17"
-                      height="16"
+                      width="20"
+                      height="20"
                       viewBox="0 0 17 16"
                       className="fill-current"
                     >
@@ -114,7 +115,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-[#ff6600]">
-                  Useful Links
+                  Links
                 </h2>
                 <ul>
                   <li>
@@ -144,7 +145,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009"
+                      className="dark:hover:text-[#2DB009 mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark"
                     >
                       Contact Us
                     </Link>
@@ -188,7 +189,7 @@ const Footer = () => {
                       href="/services/blockchainDevelopment"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
                     >
-                      Blockchain Development
+                      Block Chain Development
                     </Link>
                   </li>
                   <li>
@@ -225,39 +226,66 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
-                    >
-                      Address: J4, Noida Sec-58, OPPOSITE UFLEX, UP (201301)
-                    </Link>
+                  <li className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]">
+                    Head Office : C-25, Sector 58, Noida, Uttar Pradesh 201301
                   </li>
-                  <li>
+
+                  <li className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]">
+                    Back Office : J4, Noida Sec-58, Opposite U-Flex, UP (201301)
+                  </li>
+                  <li className=" mb-4  flex items-center gap-1 text-base text-body-color">
                     <Link
                       href="mailto:support@hhpsoftware.in?subject=Support%20Request&body=Hello,%20I%20need%20assistance%20with..."
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                      className=" duration-300 text-[#ff0000] hover:text-[#2DB009] dark:[#ff0000] dark:hover:text-[#2DB009]"
                     >
-                      Email: support@hhpsoftware.in
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z" />
+                      </svg>
                     </Link>
+                    support@hhpsoftware.in
                   </li>
-                  <li>
+                  <li className="mb-4 flex items-center gap-1 text-base text-body-color ">
                     <Link
                       href="tel:01204511388"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
+                      className="duration-300 text-[#2589ff]  hover:text-[#2DB009] dark:text-[#2589ff]  dark:hover:text-[#2DB009] "
                     >
-                      Phone: 0120-4511388
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M6.62 10.79a15.534 15.534 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24c1.12.37 2.33.57 3.54.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.3 22 2 13.7 2 3.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.21.2 2.42.57 3.54a1 1 0 01-.24 1.05l-2.2 2.2z" />
+                      </svg>
                     </Link>
+                    0120-4511388
                   </li>
-                  <li>
+
+                  <li className="mb-4 flex items-center gap-1 text-base text-body-color ">
                     <Link
+                      className=" duration-300 text-[#25d366] bg-[] hover:text-[#2DB009] dark:text-[#25d366] dark:hover:text-[#2DB009] "
                       href="https://wa.me/919599959908?text=Hello!%20I'm%20interested%20in%20your%20services."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-[#2DB009] dark:text-body-color-dark dark:hover:text-[#2DB009]"
                     >
-                      Whatsapp: +91 9599 9599 08
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 32 32"
+                        fill="currentColor"
+                      >
+                        <path d="M16.003 2.998c-7.16 0-13 5.84-13 13 0 2.303.603 4.557 1.744 6.532L3 29l6.646-1.716A12.93 12.93 0 0016.003 29c7.16 0 13-5.84 13-13s-5.84-13-13-13zm0 23.4a10.362 10.362 0 01-5.279-1.449l-.38-.222-3.948 1.018 1.05-3.85-.247-.394a10.36 10.36 0 01-1.58-5.52c0-5.71 4.648-10.357 10.357-10.357s10.357 4.648 10.357 10.357-4.648 10.357-10.357 10.357zm5.846-7.85c-.32-.16-1.902-.938-2.196-1.046-.294-.107-.508-.16-.723.16-.214.32-.828 1.045-1.015 1.26-.187.213-.374.24-.694.08-.32-.16-1.352-.5-2.577-1.59-.953-.85-1.597-1.9-1.784-2.22-.187-.32-.02-.492.14-.652.143-.143.32-.374.48-.56.16-.187.213-.32.32-.533.106-.213.054-.4-.027-.56-.08-.16-.723-1.748-.99-2.398-.267-.64-.538-.547-.723-.56l-.62-.013c-.213 0-.56.08-.854.374s-1.12 1.093-1.12 2.665 1.147 3.094 1.307 3.306c.16.213 2.258 3.444 5.474 4.826.765.33 1.36.528 1.824.675.767.243 1.464.208 2.015.127.615-.092 1.902-.777 2.17-1.527.267-.75.267-1.393.187-1.527-.08-.133-.293-.213-.613-.374z" />
+                      </svg>
                     </Link>
+                    +91 9599 9599 08
                   </li>
                 </ul>
               </div>

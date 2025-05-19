@@ -5,8 +5,8 @@ const evData = [
       img: "/images/Evcharge/cms-feature-1.svg", // Replace with actual icon/image
     },
     {
-      title: "Multiple Tariff and Payment Options",
-      description:  "Flexibly set time-based or consumption-based tariffs to suit your business needs.",
+      title: "Multiple Teriffic Payment Options",
+      description:  "Flexibly set time-based or consumption-based Teriffic to suit your business needs.",
       img: "/images/Evcharge/cms-feature-2.svg",
     },
     {

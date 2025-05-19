@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
+        pageName="About"
         description="Unlocking the Pinnacle of Exceptional Services"
       />
       <AboutSectionOne />

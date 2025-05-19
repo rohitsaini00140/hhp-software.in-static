@@ -60,7 +60,7 @@ export const testimonialData: Testimonial[] = [
   {
     id: 8,
     logo: "/images/clients/VntMart.png",
-    ClientName: "Vnt Mart",
+    ClientName: "Unt Mart",
     content: "HHP Software built a cutting-edge retail management system for us, streamlining our inventory and sales processes. Their technical knowledge and support have been exceptional, making our daily operations much more efficient!",
     star: 5
   },

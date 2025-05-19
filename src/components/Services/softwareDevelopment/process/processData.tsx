@@ -77,7 +77,7 @@ const processData: Process[] = [
     ),
     title: "Design",
     paragraph:
-      "In this phase, the system and software design is prepared based on the requirements specified. It involves defining architecture, components, interfaces, and data for the system.",
+      "In this phase, the system and software design is prepare based on the requirements specified. It involves defining architectures, components, interfaces, and data for the system.",
   },
   {
     id: 3,

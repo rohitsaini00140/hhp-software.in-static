@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
-import "../customCSS/customCSS.css"
+import "../customCSS/customCSS.css";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -19,14 +19,18 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-10 md:pt-15 lg:pt-15 bg-white dark:bg-transparent">
+    <section
+      id="about"
+      className="md:pt-15 lg:pt-15 bg-white pt-10 dark:bg-transparent"
+    >
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Who We Are"
-                paragraph="HHP Software is a privately held software development company headquartered in J4, Noida Sec-58, OPPOSITE UFLEX, UP (201301). Established in 2018, We are dedicated to the pursuit of creating outstanding digital solutions that revolutionize businesses, optimize processes, and captivate users with unparalleled experiences."
+                paragraph="HHP Software is a privately held software development company  based on
+                Noida, Uttar Pradesh  established in 2018, We are dedicated to the pursuit of creating outstanding digital solutions that revolutionize businesses, optimize processes, and captivate users with unparalleled experiences."
                 mb="44px"
               />
 
@@ -39,13 +43,14 @@ const AboutSectionOne = () => {
                     <List text="Web Development" />
                     <List text="Mobile App Development" />
                     <List text="Software Development" />
-                    <List text="Blockchain Development" />
+                    <List text="Block Chain Development" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Digital Marketing Services" />
                     <List text="IT Hardware Services" />
                     <List text="IT Manpower Services" />
+                    <List text="Billing Software" />
                   </div>
                 </div>
               </div>
@@ -57,7 +62,7 @@ const AboutSectionOne = () => {
                   src="/images/about/aboutIntroImage.png"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full lg:mr-0 vert-move"
+                  className="vert-move mx-auto max-w-full lg:mr-0"
                 />
               </div>
             </div>

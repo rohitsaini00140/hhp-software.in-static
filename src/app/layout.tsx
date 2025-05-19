@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | HHP SOFTWARE PRIVATE LIMITED",
   },
   description:
-    "HHP Software is a leading mobile app development company in the US, UK & India. We offer innovative digital solutions to our clients across industries.",
+    "HHP Software is a leading mobile app development company in the US, UK and UAE & India. We offer innovative digital solutions to our clients across industries.",
 };
 
 const inter = Inter({ subsets: ["latin"] });

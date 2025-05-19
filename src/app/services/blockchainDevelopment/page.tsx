@@ -6,7 +6,7 @@ import TechnologyIntro from "@/components/Services/blockchainDevelopment/technol
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blockchain Development"
+  title: "Block Chain Development"
 }
 
 function BlockchainDevelopment() {

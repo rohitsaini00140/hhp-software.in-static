@@ -11,7 +11,7 @@ const Process = () => {
       <section id="features" className="py-10 md:py-10 lg:py-15">
         <div className="container">
           <SectionTitle
-            title="Our Digital Marketing Service Process"
+            title="Digital Marketing Service Process"
             paragraph="Discover how we elevate your brand through a tailored approach blending strategic planning, creative execution, and continuous optimization. We specialize in crafting personalized digital marketing strategies that drive measurable results and foster long-term growth for your business."
             center
             mb="100px"
